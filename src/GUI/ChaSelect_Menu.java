@@ -70,7 +70,7 @@ public class ChaSelect_Menu extends JFrame {
 		JLabel lbl_WarriorIcon = new JLabel("");
 		lbl_WarriorIcon.setBounds(10, 107, 75, 82);
 		panel.add(lbl_WarriorIcon);
-		ImageIcon icon = new ImageIcon("D:/Programlar/Eclipse/workshop/AdventureGame/src/GUI/warrior.png");
+		ImageIcon icon = new ImageIcon("warrior.png");
 		//C:/Users/ROMAN/Desktop/eclipse/workshop/AdventureGame/src/GUI/warrior.png
 		lbl_WarriorIcon.setIcon(icon);
 		
@@ -85,7 +85,7 @@ public class ChaSelect_Menu extends JFrame {
 		JLabel lbl_HeavyFighterIcon = new JLabel("");
 		lbl_HeavyFighterIcon.setBounds(156, 107, 82, 82);
 		panel.add(lbl_HeavyFighterIcon);
-		ImageIcon icon2 = new ImageIcon("D:/Programlar/Eclipse/workshop/AdventureGame/src/GUI/heavyFighter.png");
+		ImageIcon icon2 = new ImageIcon("heavyFighter.png");
 		lbl_HeavyFighterIcon.setIcon(icon2);		
 		
 		JTextArea txtHeavyFighter = new JTextArea();
@@ -99,7 +99,7 @@ public class ChaSelect_Menu extends JFrame {
 		JLabel lbl_ArcherIcon = new JLabel("");
 		lbl_ArcherIcon.setBounds(301, 107, 82, 82);
 		panel.add(lbl_ArcherIcon);
-		ImageIcon icon3 = new ImageIcon("D:/Programlar/eclipse/workshop/AdventureGame/src/GUI/archer.png");
+		ImageIcon icon3 = new ImageIcon("archer.png");
 		lbl_ArcherIcon.setIcon(icon3);
 		
 		JTextArea txtArcher = new JTextArea();
